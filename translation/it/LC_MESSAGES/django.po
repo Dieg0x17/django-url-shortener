@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-10 09:34+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: templates/url.html:5
+msgid "Acortador de urls"
+msgstr "Url Shortener"
+
+#: templates/url.html:9
+msgid "ACORTADOR DE URLS"
+msgstr "URL SHORTENER"
+
+#: templates/url.html:21
+msgid "Acortar!"
+msgstr "Accorciare!"
+
+#: templates/url.html:32
+msgid "Url acortada:"
+msgstr "URL abbreviato"
+
+#: url/models.py:9
+msgid "Url:"
+msgstr "Url:"
+
+#: url/models.py:9
+msgid "Introduce una url para acortar."
+msgstr "Inserire un URL per accorciare."
+
+#: urlshort/settings.py:110
+msgid "Español"
+msgstr "Spagnola"
+
+#: urlshort/settings.py:111
+msgid "Inglés"
+msgstr "Inglese"
+
+#: urlshort/settings.py:112
+msgid "Portuges"
+msgstr "Portugues"
+
+#: urlshort/settings.py:113
+msgid "Frances"
+msgstr "Frances"
+
+#: urlshort/settings.py:114
+msgid "Italiano"
+msgstr "Italiano"
+
+#: urlshort/settings.py:115
+msgid "Aleman"
+msgstr "Tedesco"

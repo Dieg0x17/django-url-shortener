@@ -1,0 +1,40 @@
+{% extends "main.html" %}
+{% load i18n %}
+
+{% block title %}
+{% trans 'Acortador de urls' %}
+{% endblock %}
+
+{% block header %}
+<p align="center" id="title">{% trans 'ACORTADOR DE URLS' %}</p>
+{% endblock %}
+
+{% block content %}
+<center><div id="form"> 
+<form action="" method="post">
+  
+ 
+  {% csrf_token %}
+  
+  <label for="id_url">{{ form.url.label }}</label>
+  {{ form.url }}
+
+  <input type="submit" id="submit" value="{% trans 'Acortar!' %}"/>
+  <label class="helptext">{{ form.url.help_text }}</label>
+  <div class="errorlist">{{ form.url.error_list }}</div>
+</form>
+</div></center>
+
+{% endblock %}
+
+
+{% block footer %}
+  {% if shorturl %}
+
+  	<center><span>{% trans 'Url acortada:' %}</br>
+	<a href="{% url 'geturi' shorturl %}">{% url 'geturi' shorturl %}</a>
+  	</span></center>
+  	<span>{{ fecha }}</span>
+  	
+  {% endif %}
+{% endblock %}
